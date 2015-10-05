@@ -1,0 +1,50 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<groupId>se.ebu.randomsentence</groupId>
+	<artifactId>random-sentence-generator</artifactId>
+	<version>0.0.1-SNAPSHOT</version>
+	<name>Simple Random sentence generator</name>
+	<properties>
+		<java.version>1.8</java.version>
+		<java.version.range>[1.7.0, 1.8.1)</java.version.range>
+		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+
+		<common.collections.version>4.0</common.collections.version>
+		<apache.commons.version>3.4</apache.commons.version>
+
+		<junit.version>4.12</junit.version>
+	</properties>
+
+	<dependencies>
+		<dependency>
+			<groupId>junit</groupId>
+			<artifactId>junit</artifactId>
+			<version>${junit.version}</version>
+			<scope>test</scope>
+		</dependency>
+		<dependency>
+			<groupId>org.apache.commons</groupId>
+			<artifactId>commons-collections4</artifactId>
+			<version>${common.collections.version}</version>
+		</dependency>
+		<dependency>
+			<groupId>org.apache.commons</groupId>
+			<artifactId>commons-lang3</artifactId>
+			<version>${apache.commons.version}</version>
+		</dependency>
+	</dependencies>
+
+	<build>
+		<plugins>
+			<plugin>
+				<artifactId>maven-compiler-plugin</artifactId>
+				<version>3.1</version>
+				<configuration>
+					<target>${java.version}</target>
+					<source>${java.version}</source>
+				</configuration>
+			</plugin>
+		</plugins>
+	</build>
+</project>
