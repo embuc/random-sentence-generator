@@ -18,6 +18,7 @@ package se.ebu.randomsentence;
  * @author Emir Bucalovic (embuc)
  * @since 2015-okt-05
  */
+@SuppressWarnings("javadoc")
 public class Grammar {
 
 	public final static String ARTICLE[] = { "the", "a", "one", "some", "any", "an" };
