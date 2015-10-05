@@ -18,12 +18,14 @@ package se.ebu.randomsentence;
  * @author Emir Bucalovic (embuc)
  * @since 2015-okt-05
  */
-@SuppressWarnings("javadoc")
 public class Grammar {
 
+	/** Common articles in English language. */
 	public final static String ARTICLE[] = { "the", "a", "one", "some", "any", "an" };
+	/** Common prepositions in English language. */
 	public final static String PREPOSITION[] = { "to", "from", "over", "under", "on", "in", "at", "since", "for", "ago", "before", "past", "till",
 			"until", "by", "next to", "below", "above", "across", "through", "into", "towards", "onto", "of", "off", "out of" };
+	/** Common verbs (both regular and irregular) in English language. */
 	public final static String VERB[] = { "arose", "awoke", "was ", "were", "bore", "beat", "became", "began", "bent", "bet", "bit", "bled", "blew",
 			"broke", "brought", "built", "burned ", "burnt", "burst", "bought", "caught", "chose", "clung", "came", "cost", "crept", "cut", "dealt",
 			"dug", "dived ", "dove", "did", "drew", "dreamed ", "dreamt", "drank", "drove", "ate", "fell", "fed", "felt", "fought", "found", "fit",
@@ -89,6 +91,7 @@ public class Grammar {
 			"untidyed", "used", "vanished", "visited", "wailed", "waited", "walked", "wandered", "wanted", "warmed", "warned", "washed", "wasted",
 			"watched", "watered", "waved", "weighed", "welcomed", "whined", "whiped", "whirled", "whispered", "whistled", "winked", "wiped", "wished",
 			"wobbled", "wondered", "worked", "worryed", "wraped", "wrecked", "wrestled", "wriggled", "x-rayed", "yawned", "yelled", "ziped", "zoom" };
+	/** Common nouns in English language. */
 	public final static String NOUN[] = { "accelerator", "accordion", "account", "accountant", "acknowledgment", "acoustic", "acrylic", "act",
 			"action", "active", "activity", "actor", "actress", "adapter", "addition", "address", "adjustment", "adult", "advantage", "advertisement",
 			"advice", "afghanistan", "africa", "aftermath", "afternoon", "aftershave", "afterthought", "age", "agenda", "agreement", "air", "airbus",
