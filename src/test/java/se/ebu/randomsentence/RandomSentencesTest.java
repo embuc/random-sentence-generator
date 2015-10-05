@@ -3,7 +3,6 @@ package se.ebu.randomsentence;
 import static org.hamcrest.CoreMatchers.equalTo;
 import static org.hamcrest.CoreMatchers.is;
 import static org.hamcrest.CoreMatchers.notNullValue;
-import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertNotNull;
 import static org.junit.Assert.assertThat;
 import static org.junit.Assert.assertTrue;
@@ -45,7 +44,7 @@ public class RandomSentencesTest {
 		String actual = RandomSentences.generateRandomSentence(length);
 		assertNotNull(actual);
 		String[] words = actual.split(" ");
-		assertEquals(3, words.length);
+		assertTrue(words.length >= 3);
 	}
 
 	@Test
@@ -54,7 +53,7 @@ public class RandomSentencesTest {
 		String actual = RandomSentences.generateRandomSentence(length);
 		assertNotNull(actual);
 		String[] words = actual.split(" ");
-		assertEquals(6, words.length);
+		assertTrue(words.length >= 6);
 	}
 
 	@Test
@@ -63,7 +62,7 @@ public class RandomSentencesTest {
 		String actual = RandomSentences.generateRandomSentence(length);
 		assertNotNull(actual);
 		String[] words = actual.split(" ");
-		assertEquals(12, words.length);
+		assertTrue(words.length >= 12);
 	}
 
 	@Test
