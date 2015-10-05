@@ -16,6 +16,12 @@
 		<junit.version>4.12</junit.version>
 	</properties>
 
+	<scm>
+		<connection>scm:git:ssh://git@emirbuc.se/emir/random-sentence-generator.git</connection>
+		<developerConnection>scm:git:ssh://git@emirbuc.se/emir/random-sentence-generator.git</developerConnection>
+		<tag>HEAD</tag>
+	</scm>
+
 	<dependencies>
 		<dependency>
 			<groupId>junit</groupId>
@@ -44,6 +50,18 @@
 					<target>${java.version}</target>
 					<source>${java.version}</source>
 				</configuration>
+			</plugin>
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-release-plugin</artifactId>
+				<version>2.5.2</version>
+				<dependencies>
+					<dependency>
+						<groupId>org.apache.maven.scm</groupId>
+						<artifactId>maven-scm-provider-gitexe</artifactId>
+						<version>1.9.4</version>
+					</dependency>
+				</dependencies>
 			</plugin>
 		</plugins>
 	</build>
