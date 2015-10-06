@@ -20,7 +20,7 @@
  * OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
  * THE SOFTWARE.
  */
-package se.ebu.randomsentence;
+package se.emirbuc.randomsentence;
 
 import static org.hamcrest.CoreMatchers.equalTo;
 import static org.hamcrest.CoreMatchers.is;
@@ -31,7 +31,8 @@ import static org.junit.Assert.assertTrue;
 
 import org.junit.Test;
 
-import se.ebu.randomsentence.RandomSentences.Length;
+import se.emirbuc.randomsentence.RandomSentences;
+import se.emirbuc.randomsentence.RandomSentences.Length;
 
 /**
  * RandomSentencesTest class.

@@ -20,7 +20,7 @@
  * OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
  * THE SOFTWARE.
  */
-package se.ebu.randomsentence;
+package se.emirbuc.randomsentence;
 
 /**
  * The <code>Class Grammar</code>.
