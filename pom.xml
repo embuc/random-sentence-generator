@@ -40,17 +40,6 @@
 		<tag>random-sentence-generator-0.0.5</tag>
 	</scm>
 
-	<distributionManagement>
-		<snapshotRepository>
-			<id>ossrh</id>
-			<url>https://oss.sonatype.org/content/repositories/snapshots</url>
-		</snapshotRepository>
-		<repository>
-			<id>ossrh</id>
-			<url>https://oss.sonatype.org/service/local/staging/deploy/maven2/</url>
-		</repository>
-	</distributionManagement>
-
 	<dependencies>
 		<dependency>
 			<groupId>junit</groupId>
@@ -112,24 +101,6 @@
 						<id>attach-javadocs</id>
 						<goals>
 							<goal>jar</goal>
-						</goals>
-					</execution>
-				</executions>
-			</plugin>
-			<plugin>
-				<groupId>org.sonatype.plugins</groupId>
-				<artifactId>nexus-staging-maven-plugin</artifactId>
-				<version>1.6.6</version>
-				<configuration>
-					<nexusUrl>https://oss.sonatype.org</nexusUrl>
-					<serverId>sonatype-nexus-staging</serverId>
-					<buildPromotionProfileId>mrmadman</buildPromotionProfileId>
-				</configuration>
-				<executions>
-					<execution>
-						<goals>
-							<goal>close</goal>
-							<goal>release</goal>
 						</goals>
 					</execution>
 				</executions>
