@@ -37,6 +37,7 @@
 	<scm>
 		<connection>scm:git:ssh://git@emirbuc.se/emir/random-sentence-generator.git</connection>
 		<developerConnection>scm:git:ssh://git@emirbuc.se/emir/random-sentence-generator.git</developerConnection>
+		<url>https://emirbuc.se/emir/random-sentence-generator.git</url>
 		<tag>random-sentence-generator-0.0.5</tag>
 	</scm>
 
