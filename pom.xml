@@ -1,9 +1,8 @@
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>se.emirbuc.randomsentence</groupId>
 	<artifactId>random-sentence-generator</artifactId>
-	<version>0.0.7-SNAPSHOT</version>
+	<version>0.0.7</version>
 	<packaging>jar</packaging>
 	<name>Simple Random sentence generator</name>
 	<description>Simple Random sentence generator for English language.</description>
@@ -39,7 +38,7 @@
 		<connection>scm:git:ssh://git@emirbuc.se/emir/random-sentence-generator.git</connection>
 		<developerConnection>scm:git:ssh://git@emirbuc.se/emir/random-sentence-generator.git</developerConnection>
 		<url>https://emirbuc.se/emir/random-sentence-generator.git</url>
-		<tag>random-sentence-generator-0.0.5</tag>
+		<tag>random-sentence-generator-0.0.7</tag>
 	</scm>
 
 	<distributionManagement>
