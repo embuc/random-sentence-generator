@@ -40,13 +40,7 @@ import se.emirbuc.randomsentence.RandomSentences.Length;
  * @author Emir Bucalovic (embuc)
  * @since 2015-okt-01
  */
-@SuppressWarnings("javadoc")
 public class RandomSentencesTest {
-
-	@Test
-	public void type() {
-		assertThat(RandomSentences.class, notNullValue());
-	}
 
 	@Test
 	public void instantiation() {
