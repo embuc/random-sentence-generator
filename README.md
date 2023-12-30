@@ -10,13 +10,12 @@ Maven:
     <dependency>
         <groupId>se.emirbuc.randomsentence</groupId>
         <artifactId>random-sentence-generator</artifactId>
-        <version>0.0.7</version>
+        <version>0.0.13</version>
     </dependency>
 
 Gradle:
 
-    compile group: 'se.emirbuc.randomsentence', name: 'random-sentence-generator', version: '0.0.7'
+    compile group: 'se.emirbuc.randomsentence', name: 'random-sentence-generator', version: '0.0.13'
 
 
-Library is tiny - 14kb.
 
