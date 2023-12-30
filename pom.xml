@@ -35,10 +35,10 @@
 	</properties>
 
 	<scm>
-		<connection>scm:git:ssh://git@emirbuc.se/emir/random-sentence-generator.git</connection>
-		<developerConnection>scm:git:ssh://git@emirbuc.se/emir/random-sentence-generator.git</developerConnection>
-		<url>https://emirbuc.se/emir/random-sentence-generator.git</url>
-		<tag>random-sentence-generator-0.0.5</tag>
+		<connection>scm:git:ssh://git@github.com:embuc/random-sentence-generator.git</connection>
+		<developerConnection>scm:git:ssh://git@github.com:embuc/random-sentence-generator.git</developerConnection>
+		<url>https://github.com/embuc/random-sentence-generator</url>
+		<tag>random-sentence-generator-0.0.7</tag>
 	</scm>
 
 	<distributionManagement>
