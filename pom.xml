@@ -35,8 +35,8 @@
 	</properties>
 
 	<scm>
-		<connection>scm:git:ssh://git@github.com:embuc/random-sentence-generator.git</connection>
-		<developerConnection>scm:git:ssh://git@github.com:embuc/random-sentence-generator.git</developerConnection>
+		<connection>scm:git:ssh://git@github.com/embuc/random-sentence-generator.git</connection>
+		<developerConnection>scm:git:ssh://git@github.com/embuc/random-sentence-generator.git</developerConnection>
 		<url>https://github.com/embuc/random-sentence-generator</url>
 		<tag>random-sentence-generator-0.0.9</tag>
 	</scm>
