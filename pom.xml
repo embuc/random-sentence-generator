@@ -2,7 +2,7 @@
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>se.emirbuc.randomsentence</groupId>
 	<artifactId>random-sentence-generator</artifactId>
-	<version>0.0.12-SNAPSHOT</version>
+	<version>0.0.12</version>
 	<packaging>jar</packaging>
 	<name>Simple Random sentence generator</name>
 	<description>Simple Random sentence generator for English language.</description>
@@ -38,7 +38,7 @@
 		<connection>scm:git:ssh://git@github.com/embuc/random-sentence-generator.git</connection>
 		<developerConnection>scm:git:ssh://git@github.com/embuc/random-sentence-generator.git</developerConnection>
 		<url>https://github.com/embuc/random-sentence-generator</url>
-		<tag>random-sentence-generator-0.0.9</tag>
+		<tag>random-sentence-generator-0.0.12</tag>
 	</scm>
 
 	<distributionManagement>
